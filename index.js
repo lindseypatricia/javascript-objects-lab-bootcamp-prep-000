@@ -3,8 +3,8 @@ var recipes = {
   flour: '1 cup'
 }
 
-function updateObjectWithKeyAndValue(object, key, value) {
-  return Object.assign({}, )
+function updateObjectWithKeyAndValue(recipes, key, value) {
+  return Object.assign({}, recipes, )
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
